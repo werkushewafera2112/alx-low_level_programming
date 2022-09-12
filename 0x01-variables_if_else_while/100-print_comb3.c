@@ -1,3 +1,8 @@
+/*
+ * File: 100-print_comb3.c
+ * Auth: Werku Abowerk
+ */
+
 #include <stdio.h>
 
 /**
