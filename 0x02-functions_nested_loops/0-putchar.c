@@ -1,14 +1,16 @@
-#include "werku.h"
+#include "main.h"
 /**
- * main - Prints werku
- *
- * Return: Always 0 (Success)
+ * main - prints the string from a character array.
+ * Return: 0 on success.
  */
 int main(void)
 {
-	_putchar('w');
-	_putchar('e');
-	_putchar('r');
-	_putchar('k');
-	_putchar('u');
+	char c[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
