@@ -1,14 +1,14 @@
-#include "main.h"
-/**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Nothing.
- */
-void print_alphabet(void)
-{
-	char c;
+$ amonkeyprogrammer@ubuntu:~/0x02$ cat 1-main.c
+#include "holberton.h"
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
+$ 
