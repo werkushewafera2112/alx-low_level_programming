@@ -1,14 +1,19 @@
-$ amonkeyprogrammer@ubuntu:~/0x02$ cat 1-main.c
-#include "holberton.h"
-
+#include "main.h"
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
  */
-int main(void)
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
-$ 
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
