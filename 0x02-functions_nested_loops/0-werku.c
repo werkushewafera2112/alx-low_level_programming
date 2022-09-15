@@ -1,19 +1,20 @@
-#include "werku.h"
+#include "main.h"
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Description: prints 'main \n'
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char *sh = "werku";
+char str[] = "main\n";
+int i = 0;
 
-	while (*sh)
+while (str[i] != '\0')
 	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
+	char c = str[i];
 
-	return (0);
+	_putchar(c);
+	i++;
+	}
+return (0);
 }
