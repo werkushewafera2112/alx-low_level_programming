@@ -31,4 +31,3 @@ int main(void)
 				p[i] = c[k];
 				s += c[k];
 				i++;
-
